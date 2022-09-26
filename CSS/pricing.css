@@ -1,0 +1,128 @@
+/* Global css start */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background: linear-gradient(#A52A2A,black);
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button a {
+    text-decoration: none;
+    color: #A52A2A;
+}
+/* Global css end */
+
+/* Price area css start */
+.price-area {
+    padding: 65px 0px;
+}
+
+.section-title {
+    color: rgb(0, 0, 0);;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.price-item {
+    position: relative;
+    background: #f2f2f2;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    transform: perspective(1px) translateZ(0);
+    transition: all .8s;
+}
+
+.plan {
+    background: linear-gradient(#A52A2A,black);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.head {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 15px;
+}
+
+.head h2 {
+    font-size: 75px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.head p {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.services-list {
+    padding: 20px 0px;
+}
+
+.services-list li {
+    padding: 15px 0px;
+    margin: 0px 40px;
+    border-bottom: 1px solid #372353;
+}
+
+.price-item button {
+    background:rgb(117, 16, 33);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    transition: all .6s;
+}
+
+.price-item button:hover {
+    background: #000000;
+}
+
+.price-item::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#A52A2A,black);
+    transform: rotateY(90deg);
+    transition: all .8s;
+}
+
+.price-item:hover::before {
+    transform: rotateY(0deg);
+}
+
+.price-item:hover {
+    color: #fff;
+}
+
+.navbar img {
+    width: 10rem;
+}
+
+         
+a   {
+    text-decoration: none;
+    color: #A52A2A;
+}
+
+/* Price area css start */
