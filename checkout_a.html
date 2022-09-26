@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forma de pagamento </title>
+</head>
+<link rel="stylesheet" href="CSS/checkout.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="bootstrap/bootstrap-5.2.1-dist/css/bootstrap.css">
+
+<body>
+
+  <script src="Javascript.js"></script>
+  <script src="bootstrap/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+
+
+ <!-- Navbar -->
+<nav class="navbar navbar-dark navbar-expand-lg col-12" style="background-color: black">
+  <div class="container-fluid">
+   <a href="index.html"><img src="images/Cinema_logo.png" width="150em" alt=""></a> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        &nbsp; 
+
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Filmes & séries</a>
+        </li>
+        &nbsp; 
+
+
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Documentários</a>
+        </li>
+        &nbsp; 
+
+
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Infantis</a>
+        </li>
+    
+
+
+        <li class="nav-item">
+          <a class="nav-link active" href="pricing.html">Planos</a>
+        </li>
+       &nbsp; &nbsp; &nbsp;
+        <button class="btn btn-outline-danger btn-light" type="button">
+          <a href="Tela_login.html">Entrar</a> <i class="bi bi-person"></i>
+        </button>
+    </div>
+
+    </ul>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-danger" type="submit">Search</button>
+    </form>
+  </div>
+  </div>
+</nav>
+  <!-- Navbar end -->
+
+
+    <div class="wrapper"> 
+        <h2>Gold
+            <span>R$239/anual</span>
+            
+        </h2>
+        <form action="" method="post">
+        <!--Informações iniciais da conta-->
+        <h4>Conta</h4>
+        <div class="input_group"> </div>
+            <div class="input_box">
+                <input type="text" placeholder="Nome completo" required
+                class="name">
+               
+            </div>
+            
+           
+                <div class="input_group"> </div>
+                    <div class="input_box">
+                        <input type="email" placeholder="E-mail" required
+                        class="name">
+                       
+                    </div>
+                    
+                        
+                       <!--Informações finais da conta-->
+
+
+                    
+                    
+                        
+                       
+
+                        <!--Começo dos detalhes de pagamento-->
+                            <div class="input_group"> </div>
+                                <div class="input_box">
+                                    <h4>Detalhes do pagamento</h4>
+                                    <div class="input_group"> </div>
+                       <div class="input_box">
+                           <input type="text" placeholder="Nome do cartão" required
+                           class="name">
+                          <br><br>
+                       </div>
+                                    <input type="radio" name="pay" class="radio"
+                                    id="b1" checked>
+                                    
+                                    <label for="bc1"><span>
+                                        <i class="fa-brands fa-cc-visa"></i>Cartão de crédito ou débito
+                                    </span></label>
+
+                                    <input type="radio" name="pay" class="radio"
+                                    id="b2" checked>
+                                    <label for="bc2"><span>
+                                        <i class="fa-brands fa-cc-paypal"></i>Paypal
+                                    </span></label>
+                                </div>
+                            
+
+                            <div class="input_group"> </div>
+                                <div class="input_box">
+                                    <input type="tel" class="name" placeholder="Número do cartão 1111-2222-3333-4444" required>
+                                    <i class="fa fa-credit-card icon"></i> 
+                                </div> 
+                            
+                            
+                            <div class="input_group"> </div>
+                                <div class="input_box">
+                                    <input type="tel" class="name" placeholder="CVC do cartão 632" required>
+                                    <i class="fa fa-user icon"></i> 
+                                </div> 
+                            
+                                <br><br>
+                            
+                               
+                            
+                             
+                            
+                           
+                            
+
+                            <div class="input_group"> </div>
+                                <div class="input_box">
+                                   <a href="index1.html"> <button type="submit"> Assinar </button></a>
+                               <!--Fim dos detalhes de pagamento-->
+
+      </form>
+    </div>
+</body>
+
+</html>

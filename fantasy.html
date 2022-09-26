@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2? família=Montserrat:ital,wght@1,200&family=Open+Sans&family=Poppins:ital,wght@1.100;1.200;1.300;1.400;1.50 1.600&family=Roboto:ital,wght@1,100;1.300;1.400&family=Rubik:wght@300&family=Yellowtail&display=swap"
+    rel="stylesheet">
+  <!-- BOX ICONS -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Infantil</title>
+
+  <link rel="stylesheet" href="CSS/fantasy.css">
+ 
+
+</head>
+
+<body>
+  <script src="Javascript.js"></script>
+  <script src="bootstrap/bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
+
+
+  <nav class="navbar">
+   <a href="index.html"> <img src="images/Cinema_logo.png" class="logo" alt=""></a>
+    <ul class="nav-links">
+      <li class="nav-items active"><a href="index.html"><b>Home</b></a></li>
+     
+      <li class="nav-items"><a href="#New_lanc">Novos lançamentos</a></li>
+  
+      <li class="nav-items"><a href="#others">Outros</a></li>
+   
+      <li class="nav-items"><a href="#series">Seriados</a></li>
+      
+      <li class="nav-items"><a href="#franq">Franquias</a></li>
+     
+    </ul>
+
+    <div class="right-container">
+      <input type="text" class="search-box" placeholder="search">
+      <a href="Tela_login.html" class="login-link"><i class='bx bx-user'>Login</i></a>
+    </div>
+
+  </nav>
+
+  <!-- MENU CARROSSEL -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Fantasia/Slide - Luca.webp" class="rounded" width="100%" height="400px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="name" >Luca</h1>
+          <p class="sin" > <b> Luca vive aventuras com seu novo melhor amigo, mas a diversão é ameaçada por um segredo: seu amigo é um
+            monstro marinho de outro mundo que fica abaixo da superfície da água.</b> </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Fantasia/Slide - Raya-e-o-ultimo-dragao.webp" width="100%" height="400px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="name" >Raya e o último dragão</h1>
+          <p class="sin" > <b> Há muito tempo, no mundo de fantasia de Kumandra, humanos e dragões viviam juntos em harmonia. Mas quando
+            uma força maligna ameaçou a terra, os dragões se sacrificaram para salvar a humanidade. Agora, 500 anos
+            depois, o mesmo mal voltou e cabe a uma guerreira solitária, Raya, rastrear o lendário último dragão para
+            restaurar a terra despedaçada e seu povo dividido.</b> </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Fantasia/Slide - Red-crescer-e-uma-fera.jpg" class="rounded" width="100%" height="400px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="name" >Red: crescer é uma fera</h1>
+          <p class="sin" > <b> Uma menina de 13 anos começa a se transformar em um panda vermelho gigante sempre que fica animada.</b> </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <!-- CARROSSEL END -->
+
+  <!-- TOP START -->
+
+  <div class="video-card-container">
+    <div class="video-card">
+      <img src="Fantasia/disney.png" class="video-card-image" alt="">
+      <video src="videos/disney.mp4" mute loop class="card-video"></video>
+    </div>
+
+
+    <div class="video-card">
+      <img src="Fantasia/pixar.png" class="video-card-image" alt="">
+      <video src="videos/pixar.mp4" mute loop class="card-video"></video>
+    </div>
+
+    <div class="video-card">
+      <img src="Fantasia/marvel.png" class="video-card-image" alt="">
+      <video src="videos/marvel.mp4" mute loop class="card-video"></video>
+    </div>
+
+    <div class="video-card">
+      <img src="Fantasia/star-wars.png" class="video-card-image" alt="">
+      <video src="videos/star-war.mp4" mute loop class="card-video"></video>
+    </div>
+
+    <div class="video-card">
+      <img src="Fantasia/geographic.png" class="video-card-image" alt="">
+      <video src="videos/geographic.mp4" mute loop class="card-video"></video>
+    </div>
+  </div>
+  <!-- TOP END -->
+
+  <!-- CARDS MOVIES START -->
+
+  <!-- Novos Lançamentos -->
+  <a name="New_lanc"></a>
+  <h1 class="title">Novos lançamentos</h1>
+  <div class="movies-List">
+    <button class="pre-btn"><img src="Fantasia/pre.png" alt=""></button>
+    <button class="nxt-btn"><img src="Fantasia/nxt.png" alt=""></button>
+    <div class="card-container">
+      <div class="card">
+        <img src="Fantasia/New_lanc/Buzz_lightyear.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/New_lanc/D.P.A3.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/New_lanc/Epa_cade_noe2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/New_lanc/Liga_dos_superPets.webp" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/New_lanc/Minions2.jfif" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/New_lanc/O_lendaro_cao_guerreiro.webp" class="card-img" alt="">
+        <div class="card-body">
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/New_lanc/Os_caras_malvados.jfif" class="card-img" alt="">
+        <div class="card-body">
+
+
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- Fim Novos Lançamentos -->
+
+  <!-- Outros Desenhos -->
+  <a name="others"></a>
+  <h1 class="title">Outros desenhos</h1>
+  <div class="movies-List">
+    <button class="pre-btn"><img src="Fantasia/pre.png" alt=""></button>
+    <button class="nxt-btn"><img src="Fantasia/nxt.png" alt=""></button>
+    <div class="card-container">
+      <div class="card">
+        <img src="Fantasia/A_princesa_e_o_sapo.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Dois irmaos - Uma jornada fantastica.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Encanto 1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Enrolados para sempre.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Festa no ceu - Uma aventura de outro mundo.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/FrankenWeenie.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Moana - Um mar de Aventuras.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/O bom dinossauro.webp" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Up - Altas_aventuras.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Procurando_Dory.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Vida_de_inseto.webp" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/O touro ferdinando.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/Alladin.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Fim Outros Desenhos -->
+
+  <!-- Seriados -->
+  <a name="series"></a>
+  <h1 class="title">Seriados</h1>
+  <div class="movies-List">
+    <button class="pre-btn"><img src="Fantasia/pre.png" alt=""></button>
+    <button class="nxt-btn"><img src="Fantasia/nxt.png" alt=""></button>
+    <div class="card-container">
+      <div class="card">
+        <img src="Fantasia/With Episodios/As_aventuras_de_tintim.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Bob_Esponja.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Caverna_do_dragao.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Corrida_maluca.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Ducktales_os_cacadores_de_Aventuras.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Frajola_e_piu-piu.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Manda_chuva.jfif" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Os_flintstones.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Os_jetsons.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Os_simpsons.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Pantera_cor_de_rosa.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Pernalonga.jfif" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Pica_pau.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Pokemon.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Popeye.png" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Scooby-doo.jfif" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Snoop.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/South_park.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/Tartarugas_ninjas.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/With Episodios/tom_jerry.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <!-- Fim Seriados -->
+
+  <!-- Franquias -->
+  <a name="franq"></a>
+  <h1 class="title">Franquias</h1>
+  <div class="movies-List">
+    <button class="pre-btn"><img src="Fantasia/pre.png" alt=""></button>
+    <button class="nxt-btn"><img src="Fantasia/nxt.png" alt=""></button>
+    <div class="card-container">
+      <div class="card">
+        <img src="Fantasia/+Filme/Carros1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Carros2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Carros3.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Meu_malvado_favorito1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Meu_malvado_favorito2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Meu_malvado_favorito3.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Os_Smurfs1.webp" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Os_Smurfs2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Os_Smurfs3 - a vila perdida.jfif" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Poderoso_chefinho1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Poderoso_chefinho2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Rei_leao1.png" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Rei_leao2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Rei_leao3.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Toy Story1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Toy Story2.webp" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Toy Story3.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Toy Story4.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Epa_cade_noe1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Epa_cade_noe2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Frozen1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Frozen2.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Frozen_febre_congelante.webp" class="card-img" alt="">
+        <div class="card-body">
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Olafs_Frozen_adventure.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Era-do-gelo1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Era-do-gelo2.webp" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Era-do-gelo3.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Era-do-gelo4.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Era-do-gelo_Big_Bang.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Era-do-gelo_Buck.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Monstros_S.A1.jpg" class="card-img" alt="">
+        <div class="card-body">
+
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="Fantasia/+Filme/Monstros_Universidade.jpg" class="card-img" alt="">
+        <div class="card-body">
+ <!-- Footer Start -->
+ <footer class=" text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <i class="bi bi-facebook"></i>
+      </a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i>
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="bi bi-instagram"></i></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="bi bi-linkedin"></i></i></a>
+
+
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    &copy 2022 Copyright:
+    <a class="text-white" href="#">PapaCineX.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer End -->
+
+
+
+      </div>
+    </div>
+    <!-- Fim Franquias -->
+
+    <!-- CARDS MOVIES END -->
+ 
+        </div>
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+    <script src="js/data.js"></script>
+
+</body>
+
+</html>
